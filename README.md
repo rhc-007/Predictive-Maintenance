@@ -33,3 +33,10 @@ http://127.0.0.1:8000/docs
 - TensorFlow (LSTM)
 - FastAPI
 - PostgreSQL
+
+## Results
+
+- Mean Absolute Error (MAE): 12.26  
+- Root Mean Squared Error (RMSE): 17.23
+
+The model demonstrates a strong correlation between predicted and true RUL values, particularly in lower and mid ranges. Some variance is observed at higher RUL values, which is expected due to weaker degradation signals in early life cycles.
